@@ -1,0 +1,15 @@
+To compile with Qt 4.x/Qt 5.x
+Please run
+
+  export PATH=YOUR_QT_BIN_PATH:$PATH
+  qmake
+  make
+
+
+
+
+Runtime requirements:
+
+X11 requirements(debian,ubuntu package dependencies)
+apt-get install libfontconfig1 libfreetype6 libx11-6 libxext6 libxfixes3 libxi6 libxrender1 libxcb1 libx11-xcb1 libxcb-glx0
+
